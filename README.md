@@ -1,39 +1,95 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Zúm Pizza
+## Index
+* [Live site](#live-site)
+* [BombMaze](#bombmaze)
+* [Site Features](#site-features)
+* [Wireframe](#wireframe)
+* [Testing](#testing)
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Validate html and CSS](#validate-html-and-css)
 
-Welcome,
+## Live Site
+https://johnrm.github.io/bombmaze/
+<br>
+([Back to top](#index))<br>
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## BombMaze
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+BombMaze is a maze game.
+Get to the finish in time and you win.
+([Back to top](#index))<br>
 
-## Codeanywhere Reminders
+## Site features
+### Navigation
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Responsiveness
 
-`python3 -m http.server`
+### 404 page
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### The Home Page
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### The Menu Page
 
-`http_server`
+### The Feedback Page
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### The Contact Page
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Wireframe
+Wireframe provided to show onepre-development perspective of the requirement.<br>
 
-To log into the Heroku toolbelt CLI:
+## Testing 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Responsiveness
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Expected:
 
----
+Actual:
 
-Happy coding!
+Devices: (Most likely)
+- Google Pixel 4
+- Samsung Galaxy A52
+- Samsung Galaxy Tablet
+
+### Accessibility
+
+Use [Wave Accessibility](https://wave.webaim.org/)
+
+Consider Color contrasts as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+
+### Lighthouse Testing
+
+
+### Functional Testing
+
+<br>
+([Back to top](#index))<br>
+
+## Bugs
+<br>
+([Back to top](#index))<br>
+
+## Deployment
+Site code sits in this Github repository<br>
+The development IDE used is Gitpod.<br>
+Code commits are pushed to Github as the code develops with brief relevant comments.<br>
+The live public site is published via Github Pages as follows...<br>
+In Github, from the Dashboard, navigate to 'johnrm/zumpizza' repository.<br>
+Select Settings > Under Code and Automation, select Pages (Github pages)<br>
+Under build and deployment, select the 'main' branch.<br>
+Click Save.<br>
+After a few minutes the site deploys is accessible here...<br>
+https://johnrm.github.io/zumpizza/<br>
+<br>
+([Back to top](#index))<br>
+
+## Credits
+
+([Back to top](#index))<br>
+
+## Validate html and CSS
+
+<br>
+([Back to top](#index))<br>
