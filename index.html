@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>BombMaze</title>
 </head>
+
 <body>
     <h1 class="page-header"><i class="fa-solid fa-bomb"></i> BombMaze <i class="fa-solid fa-bomb"></i></h1>
     <div class="game-header">game-header</div>
     <div class="game-board">game-board
-        <button id="start">Start</button>
         <div id="grid"></div>
-    </div>
-    <div class="statistics">statistics</div>
+        <div class="control-area">
+            <button data-type="Up" class="arrow up">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+            <button data-type="Down" class="arrow down">
+                <i class="fa-solid fa-arrow-down"></i>
+            </button>
+            <button data-type="Left" class="arrow left">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button data-type="Right" class="arrow right">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <button id="start">Start</button>
+        </div>
+        <div class="statistics">statistics</div>
 
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/bbac8e3d76.js" crossorigin="anonymous"></script>
-    <!-- Javascript -->
-    <script src="assets/js/script.js"></script>
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/bbac8e3d76.js" crossorigin="anonymous"></script>
+        <!-- Javascript -->
+        <script src="assets/js/script.js"></script>
 </body>
-</html>
 
+</html>
