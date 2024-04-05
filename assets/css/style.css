@@ -20,9 +20,30 @@ body {
     background-color: whitesmoke;
     box-sizing: border-box;
     width: 90%;
-    height: 400px;
+    min-height: 800px;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding: 1%;
 }
+
+/* Javascript 'Grid' may do what we want. */
+ :root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .grid-item {
+    padding: 1em;
+    border: 1px solid #000;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+  }

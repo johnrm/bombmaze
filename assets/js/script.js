@@ -1,7 +1,7 @@
 
 let grid=[];
-buildGrid(10, 10);
-displayGrid();
+//buildGrid(10, 10);
+//displayGrid();
 
 /**
  * Build Grid function
@@ -28,3 +28,16 @@ function displayGrid() {
         document.write(grid[row] + '<br>');
     }
 }
+
+const container = document.getElementById("container");
+makeGrid(10, 10);
+
+function makeGrid(row, col) {
+  container.style.setProperty('--grid-rows', row);
+  container.style.setProperty('--grid-cols', col);
+  for (c = 0; c < (row * col); c++) {
+    let cell = document.createElement("div");
+    cell.innerText = (Math.floor(Math.random() * 10));
+    container.appendChild(cell).className = "grid-item";
+  };
+};
